@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane fx:id="J" prefHeight="539.0" prefWidth="840.0" style="-fx-background-color: #37474F;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="E.EController">
+   <children>
+      <AnchorPane layoutX="-1.0" prefHeight="539.0" prefWidth="840.0">
+         <children>
+            <JFXToolbar layoutY="498.0" prefHeight="41.0" prefWidth="840.0" style="-fx-background-color: black;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <center>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <JFXButton alignment="CENTER" contentDisplay="GRAPHIC_ONLY" prefHeight="46.0" prefWidth="79.0">
+                           <graphic>
+                              <FontAwesomeIconView fill="WHITE" glyphName="SEARCH" size="25.0" />
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="391.0" layoutY="10.0" prefHeight="46.0" prefWidth="79.0">
+                           <graphic>
+                              <FontAwesomeIconView fill="WHITE" glyphName="NEWSPAPER_ALT" size="25.0" />
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="430.0" layoutY="10.0" prefHeight="46.0" prefWidth="79.0">
+                           <graphic>
+                              <FontAwesomeIconView fill="WHITE" glyphName="PLUS" size="25.0" />
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="470.0" layoutY="10.0" prefHeight="46.0" prefWidth="79.0">
+                           <graphic>
+                              <FontAwesomeIconView fill="WHITE" glyphName="PHOTO" size="25.0" />
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="470.0" layoutY="10.0" prefHeight="46.0" prefWidth="79.0">
+                           <graphic>
+                              <FontAwesomeIconView fill="WHITE" glyphName="VIDEO_CAMERA" size="25.0" />
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="509.0" layoutY="10.0" prefHeight="46.0" prefWidth="79.0">
+                           <graphic>
+                              <FontAwesomeIconView fill="WHITE" glyphName="GLOBE" size="25.0" />
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="549.0" layoutY="10.0" prefHeight="46.0" prefWidth="79.0">
+                           <graphic>
+                              <FontAwesomeIconView fill="WHITE" glyphName="PRINT" size="25.0" />
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="509.0" layoutY="10.0" prefHeight="46.0" prefWidth="79.0">
+                           <graphic>
+                              <FontAwesomeIconView fill="WHITE" glyphName="HAND_GRAB_ALT" size="25.0" />
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+               </center>
+            </JFXToolbar>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
